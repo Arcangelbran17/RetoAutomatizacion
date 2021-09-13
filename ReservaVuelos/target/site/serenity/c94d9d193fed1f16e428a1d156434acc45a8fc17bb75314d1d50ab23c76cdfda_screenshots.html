@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Proyecto base para Automatización </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="c979a171c6d0b5d779d10384b5a2dde6dc7b40e391095d36a2d73eb061995bec.html">Reserva De Vuelos Nacionales Colombia</a></span>
+                > <span class="truncate-60"><a
+                    href="c94d9d193fed1f16e428a1d156434acc45a8fc17bb75314d1d50ab23c76cdfda.html">Validar la reserva del vuelo exitosamente. </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-09-2021 16:53</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Reserva De Vuelos Nacionales Colombia </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Yo como usuario, requiero reservar un vuelo nacional medellin - bogota, por la pagína de despegar.com satisfactoriamente.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="57d1b69a7dc50823c8091e16642089ef4789d62ed24634065ab9b7a27653fe5b.html">Tag2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Validar la reserva del vuelo exitosamente.
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given que me encuentro en el sitio web de despegar<br>When ingreso los datos necesarios para la reserva del vuelo &lt;origen&gt;,&lt;destino&gt;,&lt;fechaida&gt;,&lt;fechavuelta&gt;,&lt;totalpasajeroadulto&gt;<br>And selecciono el vuelo<br>Then puedo ver el mensaje de ¡falta poco! satisfactoriamente &lt;mensaje&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="33a6bab67bbc407a43a1e1dff822b6f0da81e972ebfa929413ce8292d8a95f80.png" title=" Example #1: {origen=Medellin, destino=bogota, fechaida=17, fechavuelta=27, totalpasajeroadulto=2, mensaje=&iexcl;Falta poco! Completa tus datos y finaliza tu compra}" width="1920"/>
+                <img src="33a6bab67bbc407a43a1e1dff822b6f0da81e972ebfa929413ce8292d8a95f80.png" title=" Given que me encuentro en el sitio web de despegar" width="1920"/>
+                <img src="33a6bab67bbc407a43a1e1dff822b6f0da81e972ebfa929413ce8292d8a95f80.png" title=" usuario opens the Browser despegar" width="1920"/>
+                <img src="33a6bab67bbc407a43a1e1dff822b6f0da81e972ebfa929413ce8292d8a95f80.png" title=" Given que me encuentro en el sitio web de despegar (completed)" width="1920"/>
+                <img src="ee3360e33d4da3ca825587e0042fe1a44d8d16a82329af09aa0083ed9965e820.png" title=" When ingreso los datos necesarios para la reserva del vuelo Medellin,bogota,17,27,2" width="1920"/>
+                <img src="ee3360e33d4da3ca825587e0042fe1a44d8d16a82329af09aa0083ed9965e820.png" title=" Usuario ingresar ciudad origen" width="1920"/>
+                <img src="ee3360e33d4da3ca825587e0042fe1a44d8d16a82329af09aa0083ed9965e820.png" title=" usuario clicks on Caja de texto ingreso de vuelo origen" width="1920"/>
+                <img src="ee3360e33d4da3ca825587e0042fe1a44d8d16a82329af09aa0083ed9965e820.png" title=" Usuario esperar" width="1920"/>
+                <img src="ce4d111f87b918588a6c43d17bc2b84e1cd22d3e869ab5531f80865c6ac14a58.png" title=" usuario enters 'Medellin' into Caja de texto ingreso de vuelo origen" width="1920"/>
+                <img src="d7477d9798310d6371577846ea417e2f129dfd14fcf3f80895f7fba635eb408f.png" title=" Usuario esperar" width="1920"/>
+                <img src="798db086676c300cd9b314792f72c61abd4a2e89c58b0dc4b3b03ecc37932181.png" title=" usuario clicks on lista del vuelo origen" width="1920"/>
+                <img src="798db086676c300cd9b314792f72c61abd4a2e89c58b0dc4b3b03ecc37932181.png" title=" Usuario esperar" width="1920"/>
+                <img src="798db086676c300cd9b314792f72c61abd4a2e89c58b0dc4b3b03ecc37932181.png" title=" Usuario ingresar ciudad origen (completed)" width="1920"/>
+                <img src="ab9e69f209bcb8cf7defefb84c199277c51c2a2f9ea41f1c7410e000ccdeb76b.png" title=" Usuario ingresar ciudad destino" width="1920"/>
+                <img src="ab9e69f209bcb8cf7defefb84c199277c51c2a2f9ea41f1c7410e000ccdeb76b.png" title=" usuario clicks on Caja de texto ingreso de vuelo destino" width="1920"/>
+                <img src="ab9e69f209bcb8cf7defefb84c199277c51c2a2f9ea41f1c7410e000ccdeb76b.png" title=" Usuario esperar" width="1920"/>
+                <img src="022c1c21753434e1cbd559681981ddcf124e841638164f11c621c4e7648050f8.png" title=" usuario enters 'bogota' into Caja de texto ingreso de vuelo destino" width="1920"/>
+                <img src="c79e40aa2cfff877204232aea85f0ab156247a00c8b7c01f898040c0ec8b1545.png" title=" Usuario esperar" width="1920"/>
+                <img src="a8a4df37b8246820ebd88331374ebc3f7778cadf78d74adc91b37f93d41450ad.png" title=" usuario clicks on lista del vuelo destino" width="1920"/>
+                <img src="a8a4df37b8246820ebd88331374ebc3f7778cadf78d74adc91b37f93d41450ad.png" title=" Usuario esperar" width="1920"/>
+                <img src="a8a4df37b8246820ebd88331374ebc3f7778cadf78d74adc91b37f93d41450ad.png" title=" Usuario ingresar ciudad destino (completed)" width="1920"/>
+                <img src="184ccdf334d5c5295741728c6a1648077e224d600e984fdb05dfcccdac60172b.png" title=" Usuario seleccionar fecha inicio" width="1920"/>
+                <img src="184ccdf334d5c5295741728c6a1648077e224d600e984fdb05dfcccdac60172b.png" title=" usuario clicks on Caja de texto fecha inicio" width="1920"/>
+                <img src="0508e31247d079465abae739f3bf1c9ecb3373f8d89a24fddad06b57f26c28bd.png" title=" Usuario esperar" width="1920"/>
+                <img src="00d5486a7307f6240dab261146d1ad03c2ea1242bc02958ad21b61499d77a631.png" title=" usuario clicks on D&iacute;a inicio calendario seleccionado" width="1920"/>
+                <img src="6f7b9db9c2f589632fdea775ff5a19fa4a7378688c4ac5f302d6bbade38d666c.png" title=" Usuario esperar" width="1920"/>
+                <img src="6f7b9db9c2f589632fdea775ff5a19fa4a7378688c4ac5f302d6bbade38d666c.png" title=" Usuario seleccionar fecha inicio (completed)" width="1920"/>
+                <img src="cb667dfc0a1c98d4a6b3aeda8266213118954287aa722db6e893113a2a6bc288.png" title=" Usuario seleccionar fecha fin" width="1920"/>
+                <img src="cb667dfc0a1c98d4a6b3aeda8266213118954287aa722db6e893113a2a6bc288.png" title=" usuario clicks on Caja de texto fecha fin" width="1920"/>
+                <img src="dabb9a0263f1b61e787dc927919ba626bf453277b7102fb40196f20a853e21c5.png" title=" usuario clicks on D&iacute;a fin calendario seleccionado" width="1920"/>
+                <img src="c63df6eac8088968f79945a6149203a0408c09b697db290242321a4c5418ac3b.png" title=" Usuario esperar" width="1920"/>
+                <img src="53c3e000bbb21b3b85875911fcb94bf8dd2a120451cf6c9b9724d01bb96bef49.png" title=" usuario clicks on Boton de guardar fecha" width="1920"/>
+                <img src="53c3e000bbb21b3b85875911fcb94bf8dd2a120451cf6c9b9724d01bb96bef49.png" title=" Usuario esperar" width="1920"/>
+                <img src="53c3e000bbb21b3b85875911fcb94bf8dd2a120451cf6c9b9724d01bb96bef49.png" title=" Usuario seleccionar fecha fin (completed)" width="1920"/>
+                <img src="8996611b9b92d63d5d36b0447d8ac7e348297139d03d0e20adf047556518479b.png" title=" Usuario ingresar pasajeros adultos" width="1920"/>
+                <img src="8996611b9b92d63d5d36b0447d8ac7e348297139d03d0e20adf047556518479b.png" title=" usuario clicks on Caja de texto pasajero y clase de vuelo" width="1920"/>
+                <img src="ee86609f95bba08aa9432aa6b4e23a82a038aaf09f81f57090f2f0c9ff128696.png" title=" Usuario esperar" width="1920"/>
+                <img src="448896c5b19670d28af867490bde19315edc07f8e0569e39211faf001a377153.png" title=" usuario clicks on Bot&oacute;n a&ntilde;adir pasajeros al vuelo" width="1920"/>
+                <img src="beb6a2ca70369935c1ac810dbdca74c9999ec234996b0e2b1f6e049075f2c1bc.png" title=" Usuario esperar" width="1920"/>
+                <img src="32023d0ddb868ee97beb3fb4858bf99e1ce3c0bfcfacfc9c8129b4627e8588fd.png" title=" usuario clicks on Bot&oacute;n para aplicar pasajero" width="1920"/>
+                <img src="6b78f57cd79bbfeccd3a271740966292e70e87a915bd00c5c3fd662d99d02034.png" title=" Usuario esperar" width="1920"/>
+                <img src="897483daef6009b4a1606fc763137b82e70f1345ac294545ef34600f65107708.png" title=" usuario clicks on B&oacute;ton para buscarl el vuelo" width="1920"/>
+                <img src="266060693e6459d914155659d1730b48d7be6311e303e1bc023c29c9447bbfcd.png" title=" Usuario esperar" width="1920"/>
+                <img src="266060693e6459d914155659d1730b48d7be6311e303e1bc023c29c9447bbfcd.png" title=" Usuario ingresar pasajeros adultos (completed)" width="1920"/>
+                <img src="266060693e6459d914155659d1730b48d7be6311e303e1bc023c29c9447bbfcd.png" title=" When ingreso los datos necesarios para la reserva del vuelo Medellin,bogota,17,27,2 (completed)" width="1920"/>
+                <img src="94e6e7bc13a1ec9f4baad4e31a239975ab5b07f7cefa2606570a19e325ed2b3b.png" title=" And selecciono el vuelo" width="1920"/>
+                <img src="94e6e7bc13a1ec9f4baad4e31a239975ab5b07f7cefa2606570a19e325ed2b3b.png" title=" Usuario seleccionar vuelo" width="1920"/>
+                <img src="94e6e7bc13a1ec9f4baad4e31a239975ab5b07f7cefa2606570a19e325ed2b3b.png" title=" usuario clicks on Bot&oacute;n para seleccionar el primer vuelo" width="1920"/>
+                <img src="500029c1d6feb125931982a8f8b6229a25c25ffdb3df955ad9e55aa66d2b3e77.png" title=" Usuario esperar" width="1920"/>
+                <img src="500029c1d6feb125931982a8f8b6229a25c25ffdb3df955ad9e55aa66d2b3e77.png" title=" Usuario seleccionar vuelo (completed)" width="1920"/>
+                <img src="500029c1d6feb125931982a8f8b6229a25c25ffdb3df955ad9e55aa66d2b3e77.png" title=" And selecciono el vuelo (completed)" width="1920"/>
+                <img src="500029c1d6feb125931982a8f8b6229a25c25ffdb3df955ad9e55aa66d2b3e77.png" title=" Then puedo ver el mensaje de &iexcl;falta poco! satisfactoriamente &iexcl;Falta poco! Completa tus datos y finaliza tu compra" width="1920"/>
+                <img src="500029c1d6feb125931982a8f8b6229a25c25ffdb3df955ad9e55aa66d2b3e77.png" title=" Then validar mensaje should be a string containing '&amp;iexcl;Falta poco! Completa tus datos y finaliza tu compra'" width="1920"/>
+                <img src="500029c1d6feb125931982a8f8b6229a25c25ffdb3df955ad9e55aa66d2b3e77.png" title=" Then puedo ver el mensaje de &iexcl;falta poco! satisfactoriamente &iexcl;Falta poco! Completa tus datos y finaliza tu compra (completed)" width="1920"/>
+                <img src="500029c1d6feb125931982a8f8b6229a25c25ffdb3df955ad9e55aa66d2b3e77.png" title=" Example #1: {origen=Medellin, destino=bogota, fechaida=17, fechavuelta=27, totalpasajeroadulto=2, mensaje=&iexcl;Falta poco! Completa tus datos y finaliza tu compra} (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.30</span>
+</div>
+</body>
+</html>
